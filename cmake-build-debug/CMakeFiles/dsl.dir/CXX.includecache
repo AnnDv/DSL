@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/anadvorac/Documents/FAF/anul 2/dsl/main.cpp
+iostream
+-
+string
+-
+fstream
+-
+stacklibrary.h
+/Users/anadvorac/Documents/FAF/anul 2/dsl/stacklibrary.h
+
+/Users/anadvorac/Documents/FAF/anul 2/dsl/stacklibrary.h
+
