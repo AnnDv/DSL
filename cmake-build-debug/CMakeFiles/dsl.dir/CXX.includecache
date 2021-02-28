@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/anadvorac/Documents/FAF/anul 2/dsl/main.cpp
+/Users/anadvorac/Documents/FAF/anul 2/dsl/entryDictionary.cpp
+entryDictionary.h
+/Users/anadvorac/Documents/FAF/anul 2/dsl/entryDictionary.h
 iostream
 -
 string
 -
-fstream
--
-stacklibrary.h
-/Users/anadvorac/Documents/FAF/anul 2/dsl/stacklibrary.h
 
-/Users/anadvorac/Documents/FAF/anul 2/dsl/stacklibrary.h
+/Users/anadvorac/Documents/FAF/anul 2/dsl/entryDictionary.h
+__bit_reference
+-
+iostream
+-
+string
+-
 

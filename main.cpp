@@ -2,6 +2,7 @@
 #include <string>
 #include <fstream>
 #include "stacklibrary.h"
+#include "entryDictionary.h"
 
 using namespace std;
 
@@ -14,11 +15,16 @@ int main() {
     fstream file;
     file.open(path);
     getline(file, input);
+    if (entry(input))
+        while(true){
+            getline(file, input);
+            stacklibrary(input);
+        }
 //    cout<<input;
     file.close();
 
-    if (input == get_stack)
-        stacklibrary(input);
+//    if (input == get_stack)
+//        stacklibrary(input);
 
     return 0;
 

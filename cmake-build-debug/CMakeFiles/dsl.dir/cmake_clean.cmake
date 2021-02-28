@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/dsl.dir/commandsVerification.cpp.o"
+  "CMakeFiles/dsl.dir/entryDictionary.cpp.o"
   "CMakeFiles/dsl.dir/main.cpp.o"
   "CMakeFiles/dsl.dir/stacklibrary.cpp.o"
   "dsl"

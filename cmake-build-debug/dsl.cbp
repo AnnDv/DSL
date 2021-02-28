@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/commandsVerification.cpp">
+			<Option target="dsl"/>
+		</Unit>
+		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/commandsVerification.h">
+			<Option target="dsl"/>
+		</Unit>
+		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/entryDictionary.cpp">
+			<Option target="dsl"/>
+		</Unit>
+		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/entryDictionary.h">
+			<Option target="dsl"/>
+		</Unit>
 		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/main.cpp">
 			<Option target="dsl"/>
 		</Unit>

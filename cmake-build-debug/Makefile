@@ -143,6 +143,60 @@ dsl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/build
 .PHONY : dsl/fast
 
+commandsVerification.o: commandsVerification.cpp.o
+
+.PHONY : commandsVerification.o
+
+# target to build an object file
+commandsVerification.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/commandsVerification.cpp.o
+.PHONY : commandsVerification.cpp.o
+
+commandsVerification.i: commandsVerification.cpp.i
+
+.PHONY : commandsVerification.i
+
+# target to preprocess a source file
+commandsVerification.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/commandsVerification.cpp.i
+.PHONY : commandsVerification.cpp.i
+
+commandsVerification.s: commandsVerification.cpp.s
+
+.PHONY : commandsVerification.s
+
+# target to generate assembly for a file
+commandsVerification.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/commandsVerification.cpp.s
+.PHONY : commandsVerification.cpp.s
+
+entryDictionary.o: entryDictionary.cpp.o
+
+.PHONY : entryDictionary.o
+
+# target to build an object file
+entryDictionary.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/entryDictionary.cpp.o
+.PHONY : entryDictionary.cpp.o
+
+entryDictionary.i: entryDictionary.cpp.i
+
+.PHONY : entryDictionary.i
+
+# target to preprocess a source file
+entryDictionary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/entryDictionary.cpp.i
+.PHONY : entryDictionary.cpp.i
+
+entryDictionary.s: entryDictionary.cpp.s
+
+.PHONY : entryDictionary.s
+
+# target to generate assembly for a file
+entryDictionary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/entryDictionary.cpp.s
+.PHONY : entryDictionary.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -206,6 +260,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... dsl"
+	@echo "... commandsVerification.o"
+	@echo "... commandsVerification.i"
+	@echo "... commandsVerification.s"
+	@echo "... entryDictionary.o"
+	@echo "... entryDictionary.i"
+	@echo "... entryDictionary.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

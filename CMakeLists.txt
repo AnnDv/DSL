@@ -3,4 +3,4 @@ project(dsl)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(dsl main.cpp stacklibrary.cpp stacklibrary.h)
+add_executable(dsl main.cpp stacklibrary.cpp stacklibrary.h commandsVerification.cpp commandsVerification.h entryDictionary.cpp entryDictionary.h)

@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/anadvorac/Documents/FAF/anul 2/dsl/commandsVerification.cpp" "/Users/anadvorac/Documents/FAF/anul 2/dsl/cmake-build-debug/CMakeFiles/dsl.dir/commandsVerification.cpp.o"
+  "/Users/anadvorac/Documents/FAF/anul 2/dsl/entryDictionary.cpp" "/Users/anadvorac/Documents/FAF/anul 2/dsl/cmake-build-debug/CMakeFiles/dsl.dir/entryDictionary.cpp.o"
   "/Users/anadvorac/Documents/FAF/anul 2/dsl/main.cpp" "/Users/anadvorac/Documents/FAF/anul 2/dsl/cmake-build-debug/CMakeFiles/dsl.dir/main.cpp.o"
   "/Users/anadvorac/Documents/FAF/anul 2/dsl/stacklibrary.cpp" "/Users/anadvorac/Documents/FAF/anul 2/dsl/cmake-build-debug/CMakeFiles/dsl.dir/stacklibrary.cpp.o"
   )
