@@ -7,5 +7,5 @@
 #include <string>
 using namespace std;
 
-bool entry(string input);
+bool startCheck(string input);
 #endif

@@ -4,66 +4,84 @@
 
 using namespace std;
 
-bool entry(string input){
-    char start = '_';
-    if (input.find(start) < 20) {
-        bool is_end = false, is_parameter = false, is_create_command = false;
-        bool are_brackets = false;
-        string create_command = "create";
-        string stack_parameter = "stack";
-
-        if (input.size() - 1 == input.find(';'))
-            is_end = true;
-
-        if ((input.find('(') and input.find(')')) < input.size())
-            are_brackets = true;
-
-        char temp[100] = "";
-        for(int i = 0; i < input.size(); i++) {
-            if (input[i] != '_')
-                temp[i] = input[i];
-            else
-                break;
+bool entryCheck(string input) {
+    string parameter = "stack";
+    char p[100] = "";
+    for(int i = 7, j = 0; i < input.size(); ++i) {
+        if (input[i] == '(')
+            break;
+        else {
+            p[j] = input[i];
+            j++;
         }
-        if (temp == create_command)
-            is_create_command = true;
+    }
+    if (p == parameter)
+        return true;
+    else {
+        cout << "Invalid parameter!" << endl;
+    }
+}
 
-        char parse[100] = "";
-        for (int i = input.find('_') + 1, j = 0; i <= input.size(); ++i) {
-            if (input[i] == '(')
-                break;
-
-            else {
-                parse[j] = input[i];
-                j++;
-            }
+bool checkCreateCommand(string input){
+    string createCommand = "create";
+    char temp[100] = "";
+    for(int i = 0; i < input.length(); i++){
+        if(input[i] != '_')
+            temp[i] = input[i];
+        else{
+            break;
         }
-        if (parse == stack_parameter)
-            is_parameter = true;
+    }
+    if(temp == createCommand){
+        if(entryCheck(input))
+            return true;
+        else {
+            cout << "Invalid command!" << endl;
+        }
+    }
+}
 
-        if (is_end) {
-            if (are_brackets) {
-                if (is_create_command) {
-                    if (is_parameter)
-                        return true;
-                    else{
-                        cout << "Invalid parameter" << endl;
-                        exit(0);
-                    }
-                }
-                else{
-                    cout << "Invalid command" << endl;
-                    exit(0);
-                }
-            }
-            else{
-                cout << "Expected brackets" << endl;
-                exit(0);
-            }
+bool emptyBrackets(string input){
+    if (input.find('(') + 1 == input.find(')')){
+        if(checkCreateCommand(input))
+            return true;
+    }
+    else{
+        cout << "Unexpected value." << endl;
+        exit(0);
+    }
+}
+bool checkBrackets(string input){
+    if(input.find('(') < input.size() and input.find(')') < input.size()) {
+        if(emptyBrackets(input))
+            return true;
+        else{
+            cout << "Expected brackets." << endl;
+        }
+    }
+}
+
+bool checkSemicolon(string input) {
+    char end = ';';
+    if(input.find(end) == input.size() - 1) {
+        if(checkBrackets(input)){
+            return true;
         }
         else{
-            cout << "Missing a ';' at the end" << endl;
+            cout << "Semicolon is missing!" << endl;
             exit(0);
+        }
+    }
+}
+
+bool startCheck(string input) {
+    char s = '_';
+    if(input.find(s) < 20) {
+        if(checkSemicolon(input)){
+            return true;
+        }
+        else {
+            cout << "Expected \'_\'" << endl;
         }
     }
 }

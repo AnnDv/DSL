@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/Users/anadvorac/Documents/FAF/anul 2/dsl/commandsVerification.cpp
+commandsVerification.h
+/Users/anadvorac/Documents/FAF/anul 2/dsl/commandsVerification.h
+string
+-
+iostream
+-
+
+/Users/anadvorac/Documents/FAF/anul 2/dsl/commandsVerification.h
+string
+-
+iostream
+-
+
 /Users/anadvorac/Documents/FAF/anul 2/dsl/entryDictionary.cpp
 entryDictionary.h
 /Users/anadvorac/Documents/FAF/anul 2/dsl/entryDictionary.h
@@ -19,6 +33,34 @@ __bit_reference
 -
 iostream
 -
+string
+-
+
+/Users/anadvorac/Documents/FAF/anul 2/dsl/main.cpp
+iostream
+-
+string
+-
+fstream
+-
+stacklibrary.h
+/Users/anadvorac/Documents/FAF/anul 2/dsl/stacklibrary.h
+entryDictionary.h
+/Users/anadvorac/Documents/FAF/anul 2/dsl/entryDictionary.h
+
+/Users/anadvorac/Documents/FAF/anul 2/dsl/stacklibrary.cpp
+stacklibrary.h
+/Users/anadvorac/Documents/FAF/anul 2/dsl/stacklibrary.h
+commandsVerification.h
+/Users/anadvorac/Documents/FAF/anul 2/dsl/commandsVerification.h
+iostream
+-
+stack
+-
+string
+-
+
+/Users/anadvorac/Documents/FAF/anul 2/dsl/stacklibrary.h
 string
 -
 

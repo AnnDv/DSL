@@ -10,12 +10,11 @@ int main() {
 
     string input;
     string path = "/Users/anadvorac/Documents/FAF/anul 2/dsl/input.txt";
-    string get_stack = "create_stack";
 
     fstream file;
     file.open(path);
     getline(file, input);
-    if (entry(input))
+    if (startCheck(input))
         while(true){
             getline(file, input);
             stacklibrary(input);

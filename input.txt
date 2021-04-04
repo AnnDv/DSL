@@ -1,2 +1,4 @@
-create_stack
+create_stack;
 push(4)
+pop()
+push(5)
