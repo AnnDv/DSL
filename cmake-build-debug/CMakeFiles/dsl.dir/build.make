@@ -129,12 +129,54 @@ CMakeFiles/dsl.dir/entryDictionary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dsl.dir/entryDictionary.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anadvorac/Documents/FAF/anul 2/dsl/entryDictionary.cpp" -o CMakeFiles/dsl.dir/entryDictionary.cpp.s
 
+CMakeFiles/dsl.dir/Tokenizer.cpp.o: CMakeFiles/dsl.dir/flags.make
+CMakeFiles/dsl.dir/Tokenizer.cpp.o: ../Tokenizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/anadvorac/Documents/FAF/anul 2/dsl/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dsl.dir/Tokenizer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dsl.dir/Tokenizer.cpp.o -c "/Users/anadvorac/Documents/FAF/anul 2/dsl/Tokenizer.cpp"
+
+CMakeFiles/dsl.dir/Tokenizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dsl.dir/Tokenizer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anadvorac/Documents/FAF/anul 2/dsl/Tokenizer.cpp" > CMakeFiles/dsl.dir/Tokenizer.cpp.i
+
+CMakeFiles/dsl.dir/Tokenizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dsl.dir/Tokenizer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anadvorac/Documents/FAF/anul 2/dsl/Tokenizer.cpp" -o CMakeFiles/dsl.dir/Tokenizer.cpp.s
+
+CMakeFiles/dsl.dir/ErrorHandler.cpp.o: CMakeFiles/dsl.dir/flags.make
+CMakeFiles/dsl.dir/ErrorHandler.cpp.o: ../ErrorHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/anadvorac/Documents/FAF/anul 2/dsl/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/dsl.dir/ErrorHandler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dsl.dir/ErrorHandler.cpp.o -c "/Users/anadvorac/Documents/FAF/anul 2/dsl/ErrorHandler.cpp"
+
+CMakeFiles/dsl.dir/ErrorHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dsl.dir/ErrorHandler.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anadvorac/Documents/FAF/anul 2/dsl/ErrorHandler.cpp" > CMakeFiles/dsl.dir/ErrorHandler.cpp.i
+
+CMakeFiles/dsl.dir/ErrorHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dsl.dir/ErrorHandler.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anadvorac/Documents/FAF/anul 2/dsl/ErrorHandler.cpp" -o CMakeFiles/dsl.dir/ErrorHandler.cpp.s
+
+CMakeFiles/dsl.dir/parser.cpp.o: CMakeFiles/dsl.dir/flags.make
+CMakeFiles/dsl.dir/parser.cpp.o: ../parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/anadvorac/Documents/FAF/anul 2/dsl/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/dsl.dir/parser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dsl.dir/parser.cpp.o -c "/Users/anadvorac/Documents/FAF/anul 2/dsl/parser.cpp"
+
+CMakeFiles/dsl.dir/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dsl.dir/parser.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anadvorac/Documents/FAF/anul 2/dsl/parser.cpp" > CMakeFiles/dsl.dir/parser.cpp.i
+
+CMakeFiles/dsl.dir/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dsl.dir/parser.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anadvorac/Documents/FAF/anul 2/dsl/parser.cpp" -o CMakeFiles/dsl.dir/parser.cpp.s
+
 # Object files for target dsl
 dsl_OBJECTS = \
 "CMakeFiles/dsl.dir/main.cpp.o" \
 "CMakeFiles/dsl.dir/stacklibrary.cpp.o" \
 "CMakeFiles/dsl.dir/commandsVerification.cpp.o" \
-"CMakeFiles/dsl.dir/entryDictionary.cpp.o"
+"CMakeFiles/dsl.dir/entryDictionary.cpp.o" \
+"CMakeFiles/dsl.dir/Tokenizer.cpp.o" \
+"CMakeFiles/dsl.dir/ErrorHandler.cpp.o" \
+"CMakeFiles/dsl.dir/parser.cpp.o"
 
 # External object files for target dsl
 dsl_EXTERNAL_OBJECTS =
@@ -143,9 +185,12 @@ dsl: CMakeFiles/dsl.dir/main.cpp.o
 dsl: CMakeFiles/dsl.dir/stacklibrary.cpp.o
 dsl: CMakeFiles/dsl.dir/commandsVerification.cpp.o
 dsl: CMakeFiles/dsl.dir/entryDictionary.cpp.o
+dsl: CMakeFiles/dsl.dir/Tokenizer.cpp.o
+dsl: CMakeFiles/dsl.dir/ErrorHandler.cpp.o
+dsl: CMakeFiles/dsl.dir/parser.cpp.o
 dsl: CMakeFiles/dsl.dir/build.make
 dsl: CMakeFiles/dsl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/anadvorac/Documents/FAF/anul 2/dsl/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable dsl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/anadvorac/Documents/FAF/anul 2/dsl/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable dsl"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dsl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

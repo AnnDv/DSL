@@ -143,6 +143,60 @@ dsl/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/build
 .PHONY : dsl/fast
 
+ErrorHandler.o: ErrorHandler.cpp.o
+
+.PHONY : ErrorHandler.o
+
+# target to build an object file
+ErrorHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/ErrorHandler.cpp.o
+.PHONY : ErrorHandler.cpp.o
+
+ErrorHandler.i: ErrorHandler.cpp.i
+
+.PHONY : ErrorHandler.i
+
+# target to preprocess a source file
+ErrorHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/ErrorHandler.cpp.i
+.PHONY : ErrorHandler.cpp.i
+
+ErrorHandler.s: ErrorHandler.cpp.s
+
+.PHONY : ErrorHandler.s
+
+# target to generate assembly for a file
+ErrorHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/ErrorHandler.cpp.s
+.PHONY : ErrorHandler.cpp.s
+
+Tokenizer.o: Tokenizer.cpp.o
+
+.PHONY : Tokenizer.o
+
+# target to build an object file
+Tokenizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/Tokenizer.cpp.o
+.PHONY : Tokenizer.cpp.o
+
+Tokenizer.i: Tokenizer.cpp.i
+
+.PHONY : Tokenizer.i
+
+# target to preprocess a source file
+Tokenizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/Tokenizer.cpp.i
+.PHONY : Tokenizer.cpp.i
+
+Tokenizer.s: Tokenizer.cpp.s
+
+.PHONY : Tokenizer.s
+
+# target to generate assembly for a file
+Tokenizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/Tokenizer.cpp.s
+.PHONY : Tokenizer.cpp.s
+
 commandsVerification.o: commandsVerification.cpp.o
 
 .PHONY : commandsVerification.o
@@ -224,6 +278,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+parser.o: parser.cpp.o
+
+.PHONY : parser.o
+
+# target to build an object file
+parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/parser.cpp.o
+.PHONY : parser.cpp.o
+
+parser.i: parser.cpp.i
+
+.PHONY : parser.i
+
+# target to preprocess a source file
+parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/parser.cpp.i
+.PHONY : parser.cpp.i
+
+parser.s: parser.cpp.s
+
+.PHONY : parser.s
+
+# target to generate assembly for a file
+parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dsl.dir/build.make CMakeFiles/dsl.dir/parser.cpp.s
+.PHONY : parser.cpp.s
+
 stacklibrary.o: stacklibrary.cpp.o
 
 .PHONY : stacklibrary.o
@@ -260,6 +341,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... dsl"
+	@echo "... ErrorHandler.o"
+	@echo "... ErrorHandler.i"
+	@echo "... ErrorHandler.s"
+	@echo "... Tokenizer.o"
+	@echo "... Tokenizer.i"
+	@echo "... Tokenizer.s"
 	@echo "... commandsVerification.o"
 	@echo "... commandsVerification.i"
 	@echo "... commandsVerification.s"
@@ -269,6 +356,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... parser.o"
+	@echo "... parser.i"
+	@echo "... parser.s"
 	@echo "... stacklibrary.o"
 	@echo "... stacklibrary.i"
 	@echo "... stacklibrary.s"

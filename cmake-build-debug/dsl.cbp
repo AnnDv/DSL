@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/ErrorHandler.cpp">
+			<Option target="dsl"/>
+		</Unit>
+		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/ErrorHandler.h">
+			<Option target="dsl"/>
+		</Unit>
+		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/Tokenizer.cpp">
+			<Option target="dsl"/>
+		</Unit>
+		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/Tokenizer.h">
+			<Option target="dsl"/>
+		</Unit>
 		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/commandsVerification.cpp">
 			<Option target="dsl"/>
 		</Unit>
@@ -93,6 +105,12 @@
 			<Option target="dsl"/>
 		</Unit>
 		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/main.cpp">
+			<Option target="dsl"/>
+		</Unit>
+		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/parser.cpp">
+			<Option target="dsl"/>
+		</Unit>
+		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/parser.h">
 			<Option target="dsl"/>
 		</Unit>
 		<Unit filename="/Users/anadvorac/Documents/FAF/anul 2/dsl/stacklibrary.cpp">

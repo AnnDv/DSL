@@ -3,8 +3,10 @@
 #include <fstream>
 #include "stacklibrary.h"
 #include "entryDictionary.h"
+#include "Tokenizer.h"
 
 using namespace std;
+using namespace parser;
 
 int main() {
 
